@@ -83,3 +83,15 @@ ul li {
     margin: auto;
     line-height: 1.6;
 }
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+    border: 1px solid #eee;
+    font-weight: 500;
+}
